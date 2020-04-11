@@ -12,7 +12,9 @@
 #include "loadMap.h"
 #include "drawMap.h"
 
-
+/*
+Fonction de dessin du plateau
+*/
 void drawPlateau(int x, int y){
 
     for (int j = 0; j < x; ++j)
